@@ -1,0 +1,166 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex{
+    display: flex;
+}
+.block1{
+    flex-basis: 40%;
+    height: 100vh;
+    background:#0b1827;
+    color: white;
+    font-weight: 500;
+}
+.block2{
+    flex-basis: 60%;
+    height: 100vh;
+    background-image: url('team.jpg');
+     background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-position: enter; */
+    /* background-color: green; */
+    background-size: cover;
+
+}
+.butt{
+    border-radius: 20px;
+    background-color: rgb(64, 139, 168);
+    color: white;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    margin: 1px;
+    border: 0px;
+}
+.navbar ul{
+    margin-top: 2rem;
+    margin-right: 5rem;
+    display: flex;
+    color: white;
+    justify-content: end;
+    list-style: none;
+}
+
+li{
+    padding-left: 18px;
+    font-size: 0.9rem;
+}
+
+.section1{
+    background-image:url('shape.svg');
+    height: auto;
+    padding: 0rem 7rem;
+    color: white;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 30px; */
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.7rem;
+
+}
+.events img{
+    box-shadow: rgba(141,141,141) 5px 5px 10px;
+    /* position: absolute; */
+}
+.team{
+    width: 17rem;
+    height: 14rem; 
+    color: white;
+    font-size: 0.8rem;
+}
+.team:nth-child(even){
+    margin-top: 25px;
+}
+.textco{
+    position: relative;
+    top:-2vh;
+    padding-left: 10px;
+}
+
+/* footer */
+    #footer li {
+            list-style: none;
+            color: #275080;
+        }
+
+  .footerPic div {
+            margin: 15px;
+        }
+
+        .footerPic div h3 {
+            color: #003199;
+            margin: 10px 0;
+        }
+        .social{
+            margin-top: 15px;
+        }
+        .social i{
+            color:#ffffff ;
+            padding: 10px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            background: #56B8E6;
+        }
+        .socialaa li{
+            color: rgb(32,32,32);
+        }
+        .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
+    margin-top: 10vh;
+}
+.footer {
+    height: 30vh;
+    background: #F7F9FC;
+}
+
+.footerText {
+    flex-basis: 40%;
+    /* border: solid red; */
+    height: 30vh;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 3%;
+
+}
+
+.footerText h1 {
+    color: #f5f5f5;
+    font-size: 3rem;
+    font-weight: 550;
+}
+
+.footerText span h2 {
+    color: #f5f5f5;
+    font-size: 1.3rem;
+    padding-left: 20px;
+
+
+}
+
+.footerPic {
+    flex-basis: 60%;
+    height: 30vh;
+    position: relative;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
